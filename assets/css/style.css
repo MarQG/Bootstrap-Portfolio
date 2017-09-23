@@ -5,15 +5,39 @@ html{
 }
 
 body{
-	padding-top: 70px;
+	padding-top: 130px;
 	background-color: transparent;
+}
+
+h1,h2,h3{
+	color:#FFC300;
+}
+
+.navbar{
+	border-bottom: 10px #FFC300 solid;
+	background-color: #283747;
+	margin: 0 auto;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.navbar-toggle{
+	background-color: #808B96;
 }
 
 #portfolio-image{
 	height: 175px;
 	width: 150px;
-	margin: 0 20px;
 	border: 1px #dddddd solid;
+}
+
+.main-content{
+	padding: 15px;
+}
+
+.main-content img{
+	width: 500px;
+	height: 220px;
 }
 
 .social-link-item{
@@ -31,4 +55,12 @@ body{
 
 .footer p{
 	padding-top: 30px;
+}
+
+@media screen and (max-width: 960px){
+
+	#portfolio-image{
+		margin: 0 auto;
+
+	}
 }
